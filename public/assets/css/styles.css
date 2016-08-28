@@ -6,10 +6,15 @@
  * Twitter: @3rdwave_themes
 */
 /* ======= Base ======= */
+
+
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #444444;
+  max-width: 100% !important; 
+  overflow-x: hidden !important;
 }
+
 a {
   color: #666666;
   -webkit-transition: all 0.4s ease-in-out;
@@ -25,6 +30,9 @@ a:focus {
   text-decoration: none;
   color: #3fa07a;
 }
+
+
+
 .btn {
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -461,7 +469,8 @@ select {
  
 }
 .promo .overview .btn-group li.ios-btn a {
-  background-image: url('../images/buttons/btn-app-store.png');
+  background-image: url('../images/buttons/btn-app-store.png')
+  ;
   background-position: center; 
 }
 
@@ -1208,6 +1217,11 @@ select {
   margin: 0 auto;
   margin-top: 60px;
 }
+
+
+
+
+
 /* ======= 404 page ======= */
 .section-404 {
   background-color: #56bc94;

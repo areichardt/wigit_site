@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
 
     /* ======= Scrollspy ======= */
-    $('body').scrollspy({ target: '#top', offset: 400});
+    $('body').scrollspy({ target: '#top', offset: 300});
    
     /* ======= ScrollTo ======= */
     $('a.scrollto').on('click', function(e){
